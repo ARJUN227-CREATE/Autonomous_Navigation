@@ -15,6 +15,8 @@ Use Matplotlib to show the warehouse and the robot's position over time.
 Display pauses and movements distinctly.
 5. Optional Enhancements
 Introduce obstacles and reroute the robot if you want a more complex scenario.
+
+
 #Explanation of the Code
 #Movement Function:
 
