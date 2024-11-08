@@ -15,14 +15,14 @@ Use Matplotlib to show the warehouse and the robot's position over time.
 Display pauses and movements distinctly.
 5. Optional Enhancements
 Introduce obstacles and reroute the robot if you want a more complex scenario.
-Explanation of the Code
-Movement Function:
+#Explanation of the Code
+#Movement Function:
 
 The move_robot function moves the robot step-by-step toward the destination, making adjustments to x or y coordinates based on the shortest path.
-Visualization:
+#Visualization:
 
 We use plt.plot() to mark the start, destination, and intermediate positions.
 plt.pause() shows movement in real-time with the 0.1-second interval.
-Time Delay:
+#Time Delay:
 
 time.sleep(pause_time) simulates the 2-second pause after each movement.
